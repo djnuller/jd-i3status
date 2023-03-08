@@ -40,11 +40,3 @@ class Decorators:
     
     def print_end(self):
         print(']')
-    
-if __name__ == "__main__":
-    test = Decorators()
-    obj = {}
-    obj['name'] = "test"
-    obj['full_text'] = "Testersen"
-    obj['background'] = "#1976D2"
-    test.print_command(obj, "#1976D2")
